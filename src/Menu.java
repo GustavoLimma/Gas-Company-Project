@@ -1,5 +1,5 @@
 public class Menu {
-    public static void menu(){
+    public static void menu(){ // draw the menu
             System.out.println("__________________________________");
             System.out.println("|          MY GAS COMPANY        |");
             System.out.println("|================================|");
@@ -19,4 +19,7 @@ public class Menu {
         System.out.println("\033[H\033[23");
         System.out.flush();
     }
+
 }
+
+
