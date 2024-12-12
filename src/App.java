@@ -33,7 +33,7 @@ public class App {
                 while (confirm.equals("N")) {
                     System.out.println(" Enter an new address: ");
                     address = scanner.nextLine();
-                    newOrder.alterAddress(address);
+                    newOrder.setAnddress(address);
                     newOrder.PurchaseDate();  
                     System.out.println("Confirm? (Y/N): ");
                     confirm = scanner.nextLine().toUpperCase();  
@@ -99,8 +99,8 @@ public class App {
                     break;
             }
 
-            scanner.close();
-
         }while(!close);
+
+        scanner.close();
     }
 }

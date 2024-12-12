@@ -97,10 +97,6 @@ public class Order {
         System.out.println("|================================|");
     }
 
-    public void alterAddress(String address){
-        this.anddress = anddress;
-    }
-
     public void data(){
             System.out.println("__________________________________");
             System.out.println("|          MY GAS COMPANY        |");

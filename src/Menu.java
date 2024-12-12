@@ -14,7 +14,7 @@ public class Menu {
             System.out.println("|    THANKS FOR THE PURCHASE     |");
             System.out.println("|________________________________|");
     }
-
+    
     public static void clear(){
         System.out.println("\033[H\033[23");
         System.out.flush();
